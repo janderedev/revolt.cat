@@ -44,7 +44,9 @@ function owofyNode(node) {
         node.nodeValue = owoify(node.nodeValue, 'uwu');
     }
     else for (const child of node.childNodes) {
-        owofyNode(child);
+        if (!child.parentElement.classList.contains('no-owo')) {
+            owofyNode(child);
+        }
     }
 }
 

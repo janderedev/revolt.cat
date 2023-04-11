@@ -10,6 +10,7 @@ import Roles from "../assets/illustrations/Roles.svg";
 import Private from "../assets/illustrations/Private.svg";
 import Colors from "../assets/illustrations/Colors.svg";
 import { GetStaticProps } from "next";
+import { RedirectBanner } from "../components/layout/global/RedirectBanner";
 
 const HeroContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.backgroundLighter};
@@ -22,6 +23,7 @@ interface HomeProps {
 export default function Home({ fadeoutUrl }: HomeProps) {
     return (
         <>
+            <RedirectBanner />
             <HeroContainer>
                 <IndexHero />
                 <HeroFadeout staticFadeoutUrl={fadeoutUrl} />
