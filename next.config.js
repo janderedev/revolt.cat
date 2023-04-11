@@ -29,11 +29,11 @@ const nextConfig = {
             {
                 source: "/js/p.js",
                 destination:
-                    "https://plausible.insrt.uk/js/script.outbound-links.js",
+                    "https://stats.fatalerrorcoded.eu/js/script.outbound-links.js",
             },
             {
                 source: "/api/hello",
-                destination: "https://plausible.insrt.uk/api/event",
+                destination: "https://stats.fatalerrorcoded.eu/api/event",
             },
         ];
     },
