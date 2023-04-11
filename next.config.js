@@ -33,7 +33,7 @@ const nextConfig = {
             },
             {
                 source: "/api/hello",
-                destination: "https://stats.fatalerrorcoded.eu/api/event",
+                destination: "https://stats.fatalerrorcoded.eu/api/stats",
             },
         ];
     },
