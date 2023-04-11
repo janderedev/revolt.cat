@@ -11,7 +11,7 @@ const URLs = {
         flathub: "https://flathub.org/apps/details/chat.revolt.RevoltDesktop",
         aur: "https://aur.archlinux.org/packages/revolt-desktop-git",
     },
-    pwa: "https://app.revolt.chat",
+    pwa: "https://rolt.chat",
 };
 
 export default URLs;
