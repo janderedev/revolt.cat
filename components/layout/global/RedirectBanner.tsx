@@ -4,6 +4,7 @@ import styled from "styled-components"
 const OuterContainer = styled.div`
     width: 100%;
     height: 40px;
+    position: absolute;
     background-color: ${({ theme }) => theme.colors.background};
     display: flex;
     flex-direction: column;
@@ -18,6 +19,7 @@ const InnerContainer = styled.div`
 `;
 
 const Content = styled.span`
+    user-select: none;
     font-family: 'Inter', sans-serif;
 `;
 
