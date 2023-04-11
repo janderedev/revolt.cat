@@ -1,4 +1,5 @@
 import Head from "next/head";
+import owoify from "owoify-js";
 
 interface MetaObject {
     title: string;
@@ -13,15 +14,15 @@ interface CustomMetaProps {
 
 const CustomMeta = ({ meta }: CustomMetaProps) => (
     <Head>
-        <meta property="og:title" content={meta.title} key="title" />
+        <meta property="og:title" content={owoify(meta.title, 'owo')} key="title" />
         <meta property="og:url" content={meta.url} key="url" />
         <meta property="og:image" content={meta.thumbnailAt} key="thumbnail" />
         <meta
             property="og:description"
-            content={meta.description}
+            content={owoify(meta.description, 'uwu')}
             key="description"
         />
-        <meta property="twitter:title" content={meta.title} key="tw-title" />
+        <meta property="twitter:title" content={owoify(meta.title, 'owo')} key="tw-title" />
         <meta
             property="twitter:image"
             content={meta.thumbnailAt}
@@ -29,12 +30,12 @@ const CustomMeta = ({ meta }: CustomMetaProps) => (
         />
         <meta
             property="twitter:image:alt"
-            content={meta.title}
+            content={owoify(meta.title, 'owo')}
             key="tw-thumbnail-alt"
         />
         <meta
             property="twitter:description"
-            content={meta.description}
+            content={owoify(meta.description, 'uwu')}
             key="tw-description"
         />
     </Head>

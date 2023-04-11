@@ -16,6 +16,7 @@
         "bowser": "^2.11.0",
         "gray-matter": "^4.0.3",
         "next": "latest",
+        "owoify-js": "^2.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "reading-time": "^1.5.0",
