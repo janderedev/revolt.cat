@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import Script from "next/script";
 import { ThemeProvider, DefaultTheme } from "styled-components";
 import GlobalStyle from "../components/global-styles";
 import Navbar from "../components/layout/navbar/Navbar";
@@ -29,6 +30,7 @@ const CURRENT_THEME = revolt22theme;
 export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
+            <Script src="/owo.js" type="module" defer />
             <GlobalMeta />
             <ThemeProvider theme={CURRENT_THEME}>
                 <GlobalStyle />
