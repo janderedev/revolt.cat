@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
             </ThemeProvider>
             <script
                 defer
-                data-domain="revolt.chat"
+                data-domain="revolt.cat"
                 data-api="https://stats.fatalerrorcoded.eu/api/stats"
                 src="https://stats.fatalerrorcoded.eu/js/stats.js"
             ></script>
