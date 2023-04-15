@@ -41,8 +41,8 @@ export default function App({ Component, pageProps }: AppProps) {
             <script
                 defer
                 data-domain="revolt.chat"
-                data-api="/api/hello"
-                src="/js/p.js"
+                data-api="https://stats.fatalerrorcoded.eu/api/stats"
+                src="https://stats.fatalerrorcoded.eu/js/stats.js"
             ></script>
         </>
     );
