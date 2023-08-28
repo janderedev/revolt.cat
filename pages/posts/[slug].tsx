@@ -19,8 +19,8 @@ export default function Posts({ post }: PostsProps) {
                 meta={{
                     title: `${post.title} - Revolt`,
                     description: post.description,
-                    thumbnailAt: `https://revolt.chat${post.coverImage}`,
-                    url: `https://revolt.chat/posts/${post.slug}`,
+                    thumbnailAt: `https://revolt.cat${post.coverImage}`,
+                    url: `https://revolt.cat/posts/${post.slug}`,
                 }}
             />
             <PageTitle>{`${post.title} - Revolt`}</PageTitle>

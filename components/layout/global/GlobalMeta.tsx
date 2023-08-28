@@ -10,10 +10,10 @@ const GlobalMeta = () => {
                 content="width=device-width, initial-scale=0.9, user-scalable=0"
             />
             <meta property="og:title" content="Revolt" key="title" />
-            <meta property="og:url" content="https://revolt.chat" key="url" />
+            <meta property="og:url" content="https://revolt.cat" key="url" />
             <meta
                 property="og:image"
-                content="https://revolt.chat/opengraph.png"
+                content="https://revolt.cat/opengraph.png"
                 key="thumbnail"
             />
             <meta
@@ -26,7 +26,7 @@ const GlobalMeta = () => {
             <meta property="twitter:card" content="summary_large_image" />
             <meta
                 property="twitter:image"
-                content="https://revolt.chat/opengraph.png"
+                content="https://revolt.cat/opengraph.png"
                 key="tw-thumbnail"
             />
             <meta
