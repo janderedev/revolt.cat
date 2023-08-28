@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import RevoltUI from "../../../assets/illustrations/Revolt-UI.svg";
+import Kith from "../../../assets/kith.png";
 
 const FadeoutVisual = styled.div`
     width: 100vw;
@@ -42,7 +42,7 @@ const HeroFadeout = ({ staticFadeoutUrl }: HeroFadeoutProps) => {
     return (
         <FadeoutBackground>
             <FadeoutVisual fadeoutBase64={staticFadeoutUrl}>
-                <KeyVisual src={RevoltUI.src} />
+                <KeyVisual src={Kith.src} />
             </FadeoutVisual>
         </FadeoutBackground>
     );
